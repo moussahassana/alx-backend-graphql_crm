@@ -1,0 +1,17 @@
+[project]
+name = "alx-backend-graphql-crm"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Moussa Hassana",email = "moussahassana42@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django-filter (>=25.1,<26.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
