@@ -1,1 +1,2 @@
-0 8 * * * C:\Users\MOUSSA\Documents\Alx\alx-backend-graphql_crm\crm\cron_jobs\send_order_reminders.py
+$cron = '0 8 * * * /usr/bin/python3 /c/Users/MOUSSA/Documents/Alx/alx-backend-graphql_crm/crm/cron_jobs/send_order_reminders.py'
+[System.IO.File]::WriteAllText("crm/cron_jobs/order_reminders_crontab.txt", $cron, [Text.UTF8Encoding]::new($false))
