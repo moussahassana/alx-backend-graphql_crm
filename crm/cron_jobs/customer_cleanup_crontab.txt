@@ -1,0 +1,2 @@
+$cron = '0 2 * * 0 /c/Users/MOUSSA/Documents/Alx/alx-backend-graphql_crm/crm/cron_jobs/clean_inactive_customers.sh'
+[System.IO.File]::WriteAllText("crm/cron_jobs/customer_cleanup_crontab.txt", $cron, [Text.UTF8Encoding]::new($false))
