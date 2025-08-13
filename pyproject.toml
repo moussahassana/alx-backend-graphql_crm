@@ -9,7 +9,8 @@ readme = "README.md"
 requires-python = "<4,>=3.12"
 dependencies = [
     "django-filter (>=25.1,<26.0)",
-    "graphene-django (>=3.2.3,<4.0.0)"
+    "graphene-django (>=3.2.3,<4.0.0)",
+    "gql (>=3.5.3,<4.0.0)"
 ]
 
 
