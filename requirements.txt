@@ -1,0 +1,5 @@
+$req = @"
+django-crontab
+gql[requests]
+"@
+[System.IO.File]::WriteAllText("requirements.txt", $req, [Text.UTF8Encoding]::new($false))
